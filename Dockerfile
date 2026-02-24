@@ -24,6 +24,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copiar todo el proyecto
 COPY . .
+WORKDIR /app/app
 
 # Variable importante para que Python encuentre libs del host
 ENV LD_LIBRARY_PATH=/usr/lib:/lib:$LD_LIBRARY_PATH
