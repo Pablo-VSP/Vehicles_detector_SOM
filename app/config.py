@@ -1,8 +1,7 @@
 MODEL_PATH = "/app/app/yolov8n.onnx"
 
 PROVIDERS = [
-    "NeutronExecutionProvider",
-    "CPUExecutionProvider"
+    "NeutronExecutionProvider"
 ]
 
 INPUT_SIZE = 640
